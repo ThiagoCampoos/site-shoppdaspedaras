@@ -273,7 +273,7 @@ a,
 button {
   display: inline-block;
   cursor: pointer;
-  -webkit-transition: var(--transition);
+  -webkit-transitio: var(--transition);
   transition: var(--transition);
   text-decoration: none;
   color: inherit;
@@ -303,10 +303,21 @@ a:focus {
   text-decoration: none;
   outline: none;
 }
+a2:focus {
+  text-decoration: none;
+  outline: none;
+}
 
 a:hover {
   text-decoration: none;
   color: var(--secondary-color);
+}
+
+a2:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 button,
@@ -7892,6 +7903,24 @@ input.quickview__value--number {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  filter: brightness(80%);
+}
+
+.breadcrumb__bg2 {
+  background: url(../img/banner/Produtos.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  filter: brightness(80%);
 }
 
 @media only screen and (min-width: 768px) {
@@ -10285,7 +10314,7 @@ input.quickview__value--number {
 }
 
 .contact__info--items {
-  margin-bottom: 2.7rem;
+  margin-bottom: 20px;
 }
 
 .contact__info--items:last-child {
@@ -10318,6 +10347,7 @@ input.quickview__value--number {
 
 .contact__info--content__title {
   font-weight: 600;
+  margin-bottom: auto;
 }
 
 @media only screen and (min-width: 992px) {
@@ -12545,5 +12575,38 @@ div#preloader {
   .newsletter__popup--dontshow__again--text {
     font-size: 1.6rem;
   }
+}
+.map-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.location-btn {
+  background: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.location-btn:hover {
+  background: var(--primary-color);
+}
+
+.map-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+iframe {
+  border-radius: 10px;
+  width: 100%;
+  height: 450px;
 }
 /*# sourceMappingURL=style.css.map */
