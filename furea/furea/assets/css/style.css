@@ -2005,8 +2005,8 @@ body.overlay__active::before,
 
 /* Section padding */
 .section--padding {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -2244,11 +2244,12 @@ body.overlay__active::before,
 
 .mb-15 {
   margin-bottom: 1rem;
+  padding: auto;
 }
 
 @media only screen and (min-width: 768px) {
   .mb-15 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 10px;
   }
 }
 
@@ -7088,10 +7089,11 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 }
 
+
 .main__footer {
   border-bottom: 1px solid var(--border-color);
   padding: 10px 10px;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -9356,6 +9358,7 @@ input.quickview__value--number {
 
 .product__details--info__desc {
   font-size: 1.5rem;
+  color: #070707;
 }
 
 @media only screen and (min-width: 992px) {
@@ -9376,7 +9379,7 @@ input.quickview__value--number {
 }
 
 .product__details--info__meta--list {
-  font-size: 1.5rem;
+  font-size: 20px;
   margin-bottom: 0.8rem;
 }
 
@@ -12608,5 +12611,19 @@ iframe {
   border-radius: 10px;
   width: 100%;
   height: 450px;
+}
+
+.whatsapp-btn {
+  background-color: #25d366;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.whatsapp-btn:hover {
+  background-color: #2ecc71;
 }
 /*# sourceMappingURL=style.css.map */

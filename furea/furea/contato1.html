@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Shopping das Pedras - Contatos</title>
+  <title>Shopping das Pedras - Contato</title>
   <meta name="description" content="Morden Bootstrap HTML5 Template">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -110,7 +110,7 @@
             <div class="offcanvas__inner">
                 <div class="offcanvas__logo">
                     <a class="offcanvas__logo_link" href="index.html">
-                        <img src="assets/img/logo/Prancheta 1 copiar.png" alt="Furea Logo">
+                        <img src="assets/img/logo/nav-log.webp" alt="Furea Logo">
                     </a>
                     <button class="offcanvas__close--btn" aria-label="offcanvas close btn">close</button>
                 </div>
@@ -118,9 +118,14 @@
                     <ul class="offcanvas__menu_ul">
                         <li class="offcanvas__menu_li">
                             <a class="offcanvas__menu_item" href="index.html">Home</a>
+                            <ul class="offcanvas__sub_menu">
+                                <li class="offcanvas__sub_menu_li"><a href="index.html" class="offcanvas__sub_menu_item">Home One</a></li>
+                                <li class="offcanvas__sub_menu_li"><a href="index-2.html" class="offcanvas__sub_menu_item">Home Two</a></li>
+                                <li class="offcanvas__sub_menu_li"><a href="index-3.html" class="offcanvas__sub_menu_item">Home Three</a></li>
+                            </ul>
                         </li>
                         <li class="offcanvas__menu_li">
-                            <a class="offcanvas__menu_item" href="shop.html">Produtos</a>
+                            <a class="offcanvas__menu_item" href="#">Produtos</a>
                             <ul class="offcanvas__sub_menu">
                                 <li class="offcanvas__sub_menu_li">
                                     <a href="#" class="offcanvas__sub_menu_item">Column One</a>
@@ -234,38 +239,12 @@
                                         </div>
                                     </div>
                                 </div>
+                                
                                 <div class="contact__info--items">
-                                    <h2 class="contact__info--content__title text-white mb-15" style="margin-bottom: 15px; margin-top: 20px;">LOJA UBERLÂNDIA</h2>
-                                    <div class="contact__info--items__inner d-flex">
-                                        <div class="contact__info--icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="31.57" height="31.13" viewBox="0 0 31.57 31.13">
-                                                <path id="ic_account_balance_24px" d="M5.323,14.341V24.718h4.985V14.341Zm9.969,0V24.718h4.985V14.341ZM2,32.13H33.57V27.683H2ZM25.262,14.341V24.718h4.985V14.341ZM17.785,1,2,8.412v2.965H33.57V8.412Z" transform="translate(-2 -1)" fill="currentColor"/>
-                                            </svg> 
-                                        </div>
-                                        <div class="contact__info--content">
-                                            <p class="contact__info--content__desc text-white">Av. João Naves de Ávila, 4166 - Carajás, Uberlândia - MG</p> 
-                                        </div>
-                                    </div>
                                 </div>
                                 <div class="contact__info--items">
                                     <div class="contact__info--items__inner d-flex">
-                                        <div class="contact__info--icon">
-                                            <a2 href="https://wa.me/5534988112148" target="_blank">
-                                                <img src="assets/img/icone wh.png" alt="WhatsApp" style="width: 30px; margin-right: 5px;">
-                                                (34) 98811-2148
-                                            </a2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="contact__info--items">
-                                    <div class="contact__info--items__inner d-flex">
-                                        <div class="contact__info--icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="31.57" height="31.13" viewBox="0 0 31.57 31.13">
-                                                <path id="ic_email_24px" d="M30.413,4H5.157C3.421,4,2.016,5.751,2.016,7.891L2,31.239c0,2.14,1.421,3.891,3.157,3.891H30.413c1.736,0,3.157-1.751,3.157-3.891V7.891C33.57,5.751,32.149,4,30.413,4Zm0,7.783L17.785,21.511,5.157,11.783V7.891l12.628,9.728L30.413,7.891Z" transform="translate(-2 -4)" fill="currentColor"/>
-                                            </svg>  
-                                        </div>
                                         <div class="contact__info--content">
-                                            <p class="contact__info--content__desc text-white" style="margin-top:10px;"> <a href="mailto:info@example.com"> info@example.com</a>
                                         </div>
                                     </div>
                                 </div>
@@ -276,13 +255,12 @@
                                 <!-- Botões acima do mapa -->
                                 <div class="map-buttons">
                                     <button class="location-btn" onclick="changeMap('uberaba')">Loja Uberaba</button>
-                                    <button class="location-btn" onclick="changeMap('uberlandia')">Loja Uberlândia</button>
                                 </div>
                                 <!-- Mapa -->
                                 <div class="map-container">
                                     <iframe id="mapFrame" 
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3754.838329074531!2d-47.9641131!3d-19.762022299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad101d09bac6f%3A0x518d503952f85a0a!2sShopping%20das%20Pedras!5e0!3m2!1spt-PT!2sbr!4v1741788793007!5m2!1spt-PT!2sbr" 
-                                        width="100%" height="450" style="border:0;" 
+                                        width="80%;" height="200;" style="border:0;" 
                                         allowfullscreen loading="lazy">
                                     </iframe>
                                 </div>
@@ -294,24 +272,25 @@
         </section>
         <!-- End contact section -->
        
-        <section class="newsletter__banner--section section--padding pt-0">
-            <div class="container-fluid">
-                <div class="newsletter__banner--thumbnail position__relative">
-                    <img class="newsletter__banner--thumbnail__img display-block" src="assets/img/banner/banner-bg2.jpg" alt="newsletter-banner">
-                    <div class="newsletter__content newsletter__subscribe">
-                        <h2 class="newsletter__content--subtitle text-white">Fale agora com um de</h2>
-                        <h1 class="newsletter__content--title text-white h1 mb-25">Nossos especialistas </h1>
-                        <form class="newsletter__subscribe--form position__relative" action="https://wa.me/5534996451151" method="get" target="_blank">
-                            <button class="newsletter__subscribe--button primary__btn" type="submit">Fale Agora
-                                <svg class="newsletter__subscribe--button__icon" xmlns="http://www.w3.org/2000/svg" width="9.159" height="7.85" viewBox="0 0 9.159 7.85">
-                                    <path  data-name="Icon material-send" d="M3,12.35l9.154-3.925L3,4.5,3,7.553l6.542.872L3,9.3Z" transform="translate(-3 -4.5)" fill="currentColor"/>
-                                </svg>
-                            </button>
-                        </form>   
-                    </div>
+        <!-- Start Newsletter banner section -->
+       <section class="newsletter__banner--section section--padding">
+        <div class="container-fluid">
+            <div class="newsletter__banner--thumbnail position__relative">
+                <img class="newsletter__banner--thumbnail__img display-block" src="assets/img/banner/banner-bg2.jpg" alt="newsletter-banner">
+                <div class="newsletter__content newsletter__subscribe">
+                    <h2 class="newsletter__content--subtitle text-white">Fale agora com um de</h2>
+                    <h1 class="newsletter__content--title text-white h1 mb-25">Nossos especialistas </h1>
+                    <form class="newsletter__subscribe--form position__relative" action="#">
+                        <button class="newsletter__subscribe--button primary__btn" type="submit">Fale Agora
+                            <svg class="newsletter__subscribe--button__icon" xmlns="http://www.w3.org/2000/svg" width="9.159" height="7.85" viewBox="0 0 9.159 7.85">
+                                <path  data-name="Icon material-send" d="M3,12.35l9.154-3.925L3,4.5,3,7.553l6.542.872L3,9.3Z" transform="translate(-3 -4.5)" fill="currentColor"/>
+                            </svg>
+                        </button>
+                    </form>   
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
         <!-- End Newsletter banner section -->
 
     </main>
@@ -361,7 +340,7 @@
                             </h2>
                             <ul class="footer__widget--menu footer__widget--inner">
                                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about.html">Quem somos</a></li>
-                                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="shop.html">Produtos</a></li>
+                                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="wishlist.html">Produtos</a></li>
                                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="contact.html">Contato</a></li>
                             </ul>
                         </div>
@@ -401,11 +380,11 @@
                                 <p class="footer__contact--desc" style="padding-top: 1px;"><strong></strong><br> Av. Nenê Sabino, 2180 - Santos Dumont, Uberaba - MG</p>
                                 <p class="footer__contact--desc">
                                     <strong></strong><br>
-                                    <a href="https://wa.me/5534996451151" target="_blank" style="margin-inline: 1px;">
+                                    <a href="https://wa.me/5534996451151" target="_blank" style="margin-inline: 1px; text-decoration: none;">
                                         <img src="assets/img/icone wh.png" alt="WhatsApp" style="width: 20px; margin-right: 5px; ">
                                         (34) 99645-1151
                                     </a> |
-                                    <a >
+                                    <a>
                                         (34) 3314-0400
                                     </a>
                                 </p>
@@ -422,8 +401,7 @@
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- End footer section -->
+    </footer> 
 
     <!-- Scroll top bar -->
     <button id="scroll__top"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 244l144-144 144 144M256 120v292"/></svg></button>
